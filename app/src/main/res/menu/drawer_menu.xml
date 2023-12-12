@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Elemento del menú para navegar a la lista de movimientos -->
+    <item
+        android:id="@+id/moveListRecyclerFragment"
+        android:icon="@drawable/pok_ball_icon"
+        android:title="@string/listado_de_movimientos" />
+
+    <!-- Elemento del menú para navegar a la lista de items -->
+    <item
+        android:id="@+id/itemListRecyclerFragment"
+        android:icon="@drawable/pok_ball_icon"
+        android:title="@string/listado_de_tems" />
+
+    <!-- Elemento del menú para navegar a los detalles de un item aleatorio -->
+    <item
+        android:id="@+id/itemsDetailsFragment"
+        android:icon="@drawable/pok_ball_icon"
+        android:title="@string/item_aleatorio" />
+</menu>

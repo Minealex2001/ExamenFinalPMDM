@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ExamenFinal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pokemon_list">Pokemon</string>
+    <string name="accuracy_pokemon">Accuracy</string>
+    <string name="movement_pokemon">Movement</string>
+    <string name="listado_de_movimientos">Listado de movimientos</string>
+    <string name="listado_de_tems">Listado de ítems</string>
+    <string name="item_aleatorio">Item aleatorio</string>
+    <string name="pokebol_icon">Pokebol icon</string>
+    <string name="categoriaItemLbl">Category</string>
+    <string name="costeItemLbl">Cost</string>
+    <string name="EfectosItemLbl">Efects</string>
+</resources>

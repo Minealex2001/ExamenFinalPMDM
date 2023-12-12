@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_graph"
+    app:startDestination="@id/moveListRecyclerFragment">
+
+    <fragment
+        android:id="@+id/itemListRecyclerFragment"
+        android:name="com.example.examenfinal.ItemListRecyclerFragment"
+        android:label="Listado de ítems"
+        tools:layout="@layout/fragment_item_list_recycler" >
+        <action
+            android:id="@+id/action_itemListRecyclerFragment_to_itemsDetailsFragment"
+            app:destination="@id/itemsDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemsDetailsFragment"
+        android:name="com.example.examenfinal.ItemsDetailsFragment"
+        android:label="Item aleatorio"
+        tools:layout="@layout/fragment_items_details" />
+    <fragment
+        android:id="@+id/moveListRecyclerFragment"
+        android:name="com.example.examenfinal.MoveListRecyclerFragment"
+        android:label="fragment_move_list_recycler"
+        tools:layout="@layout/fragment_move_list_recycler" >
+        <action
+            android:id="@+id/action_moveListRecyclerFragment_to_moveDetailFragment"
+            app:destination="@id/moveDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moveDetailFragment"
+        android:name="com.example.examenfinal.MoveDetailFragment"
+        android:label="MoveDetailFragment" />
+
+</navigation>
